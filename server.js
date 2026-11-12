@@ -6,7 +6,12 @@ const app = express();
 
 // Permite que o frontend na Vercel e o seu ambiente local acessem a API
 app.use(cors({
-    origin: ['https://knodoriapp.vercel.app', 'http://localhost:4200']
+    origin: [
+        'http://localhost:4200',
+        'https://knodoriapp.vercel.app',
+        'https://www.knodori.com.br',
+        'https://knodori.com.br'
+    ]
 }));
 
 app.use(express.json());
@@ -38,11 +43,3 @@ app.listen(PORT, () => {
     console.log(`servidor rodando na porta ${PORT}`);
 });
 
-app.use(cors({
-    origin: [
-        'http://localhost:4200', 
-        'https://knodoriapp.vercel.app',
-        'https://www.knodori.com.br',
-        'https://knodori.com.br'
-    ]
-}));

@@ -1,5 +1,5 @@
 {
-  "name": "knodorriapp-backend",
+  "name": "knodoriapp-backend",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -10,16 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/carol-moreira/knodorriapp-backend.git"
+    "url": "git+https://github.com/carol-moreira/knodoriapp-backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/carol-moreira/knodorriapp-backend/issues"
+    "url": "https://github.com/carol-moreira/knodoriapp-backend/issues"
   },
-  "homepage": "https://github.com/carol-moreira/knodorriapp-backend#readme",
+  "homepage": "https://github.com/carol-moreira/knodoriapp-backend#readme",
   "dependencies": {
     "@neon/config": "^1.14.0",
     "@neon/env": "^2.1.3",
